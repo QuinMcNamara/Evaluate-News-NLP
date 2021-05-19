@@ -1,0 +1,37 @@
+$backingopacity: rgba(110, 110, 110, .3);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff2d6;
+    padding: 8px;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+p {
+	font-size: 18px;
+}
+
+ul {
+	font-size: 18px;
+}
+
+.results {
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 5px;
+	background: $backingopacity;
+}

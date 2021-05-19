@@ -1,0 +1,48 @@
+footer {
+	display: flex;
+	flex-flow: row nowrap;
+	height: 50px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #adadad;
+	align-items: center;
+	justify-content: center;
+}
+
+.nlp_provider {
+	width: 75%;
+	color: #000b33;
+	text-align: center;
+}
+
+.social {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Social Links */
+
+.fa {
+	color: #0f3cdb;
+	padding: 5px;
+	text-align: center;
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
+
+/*Media Queries */
+
+@media (max-width: 599px) {
+	.copyright {
+		width: 50%;
+	}
+
+	.social {
+		width: 50%;
+	}
+}
